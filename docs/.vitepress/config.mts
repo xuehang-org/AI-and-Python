@@ -4,7 +4,6 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "AI & Python",
   description: "AI & Python",
-  base: '/AI-and-Python/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
