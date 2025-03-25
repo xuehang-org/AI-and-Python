@@ -36,6 +36,7 @@ export default defineConfig({
                         { text: 'Python 字典', link: '/process/python-dictionary' },
                         { text: 'Python 集合', link: '/process/python-set' },
                         { text: 'Python 条件控制', link: '/process/python-conditional-statements' },
+                        { text: 'Python 循环语句', link: '/process/python-loop' },
                     ]
                 }
             ],
