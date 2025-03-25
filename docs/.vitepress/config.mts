@@ -37,6 +37,7 @@ export default defineConfig({
                         { text: 'Python 集合', link: '/process/python-set' },
                         { text: 'Python 条件控制', link: '/process/python-conditional-statements' },
                         { text: 'Python 循环语句', link: '/process/python-loop' },
+                        { text: 'Python 函数', link: '/process/python-function' },
                     ]
                 }
             ],
