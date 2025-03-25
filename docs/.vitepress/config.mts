@@ -23,6 +23,7 @@ export default defineConfig({
                 {
                     text: '面向过程',
                     items: [
+                        { text: 'Python 你好世界', link: '/process/hello-world' },
                         { text: 'Python 简介', link: '/process/python-intro' },
                         { text: 'Python 基础语法', link: '/process/python-basic-syntax' },
                         { text: 'Python 基本数据类型', link: '/process/python-data-type' },
@@ -43,6 +44,7 @@ export default defineConfig({
                         { text: 'Python 文件', link: '/process/python-file' },
                         { text: 'Python 错误和异常', link: '/process/python-errors-execptions' },
                         { text: 'Python 标准库', link: '/process/python-stdlib' },
+                        { text: 'Python 第三方库', link: '/process/python-third-party-libraries' },
                     ]
                 }
             ],
