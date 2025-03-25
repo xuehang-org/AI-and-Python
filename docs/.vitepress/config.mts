@@ -35,7 +35,7 @@ export default defineConfig({
             ]
         },
         socialLinks: [
-            {icon: 'github', link: 'https://ai-and-python.xuehang.org'},
+            {icon: 'github', link: 'https://github.com/xuehang-org/AI-and-Python'},
             { icon: 'twitter', link: 'https://x.com/xuehang_org' },
         ],
         footer: {
