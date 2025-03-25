@@ -5,7 +5,7 @@ export default defineConfig({
     title: "AI & Python",
     description: "AI & Python",
     head: [
-        ['link', { rel: 'icon', href: '/favicon.ico' }]
+        ['link', { rel: 'icon', href: '/favicon-32x32.png' }]
     ],
     lastUpdated: true,
     themeConfig: {
