@@ -34,6 +34,7 @@ export default defineConfig({
                         { text: 'Python 列表', link: '/process/python-list' },
                         { text: 'Python 元组', link: '/process/python-tuple' },
                         { text: 'Python 字典', link: '/process/python-dictionary' },
+                        { text: 'Python 集合', link: '/process/python-set' },
                     ]
                 }
             ],
