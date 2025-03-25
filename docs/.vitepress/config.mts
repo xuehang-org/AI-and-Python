@@ -41,6 +41,7 @@ export default defineConfig({
                         { text: 'Python 匿名函数', link: '/process/python-lambda' },
                         { text: 'Python 模块', link: '/process/python-module' },
                         { text: 'Python 文件', link: '/process/python-file' },
+                        { text: 'Python 错误和异常', link: '/process/python-errors-execptions' },
                     ]
                 }
             ],
