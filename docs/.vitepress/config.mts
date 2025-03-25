@@ -13,7 +13,7 @@ export default defineConfig({
         nav: [
             {text: '主页', link: '/'},
             {text: '面向过程', link: '/process/hello-world'},
-            {text: '面向对象', link: '/object/object'},
+            {text: '面向对象', link: '/object/python-object'},
         ],
         sidebar: {
             // 当用户位于 `process` 目录时，会显示此侧边栏
@@ -32,9 +32,9 @@ export default defineConfig({
                 {
                     text: 'object',
                     items: [
-                        { text: 'Index', link: '/object/' },
-                        { text: 'Three', link: '/object/three' },
-                        { text: 'Four', link: '/object/four' }
+                        { text: 'Python 类定义', link: '/object/python-class-definition' },
+                        { text: 'Python 类对象', link: '/object/python-class-object' },
+                        { text: 'Python 类的方法', link: '/object/python-methods-of-the-class' }
                     ]
                 }
             ]
