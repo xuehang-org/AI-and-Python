@@ -19,7 +19,6 @@ export default defineConfig({
             {text: '面向对象', link: '/object/python-object'},
         ],
         sidebar: {
-            // 当用户位于 `process` 目录时，会显示此侧边栏
             '/process/': [
                 {
                     text: '面向过程',
@@ -34,10 +33,10 @@ export default defineConfig({
                         { text: 'Python 字符串', link: '/process/python-string' },
                         { text: 'Python 列表', link: '/process/python-list' },
                         { text: 'Python 元组', link: '/process/python-tuple' },
+                        { text: 'Python 字典', link: '/process/python-dictionary' },
                     ]
                 }
             ],
-            // 当用户位于 `config` 目录时，会显示此侧边栏
             '/object/': [
                 {
                     text: '面向对象',
