@@ -39,6 +39,7 @@ export default defineConfig({
                         { text: 'Python 循环语句', link: '/process/python-loop' },
                         { text: 'Python 函数', link: '/process/python-function' },
                         { text: 'Python 匿名函数', link: '/process/python-lambda' },
+                        { text: 'Python 模块', link: '/process/python-module' },
                     ]
                 }
             ],
