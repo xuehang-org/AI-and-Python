@@ -30,6 +30,7 @@ export default defineConfig({
                         { text: 'Python 数据类型转换', link: '/process/python-type-conversion' },
                         { text: 'Python 注释', link: '/process/python-comment' },
                         { text: 'Python 运算符', link: '/process/python-basic-operators' },
+                        { text: 'Python 数字', link: '/process/python-number' },
                     ]
                 }
             ],
