@@ -4,6 +4,9 @@ export default defineConfig({
     lang: 'zh',
     title: "AI & Python",
     description: "AI & Python",
+    head: [
+        ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ],
     lastUpdated: true,
     themeConfig: {
         logo: '/favicon.ico',
