@@ -10,6 +10,9 @@ export default defineConfig({
     lastUpdated: true,
     themeConfig: {
         logo: '/favicon.ico',
+        outline: {
+            level: [2,3] // 全局设置，显示 <h2> 和 <h3> 标题
+        },
         nav: [
             {text: '主页', link: '/'},
             {text: '面向过程', link: '/process/hello-world'},
@@ -23,7 +26,8 @@ export default defineConfig({
                     items: [
                         { text: 'Python 简介', link: '/process/python-intro' },
                         { text: 'Python 基础语法', link: '/process/python-basic-syntax' },
-                        { text: 'Python 基本数据类型', link: '/process/python-data-type' }
+                        { text: 'Python 基本数据类型', link: '/process/python-data-type' },
+                        { text: 'Python 数据类型转换', link: '/process/python-type-conversion' }
                     ]
                 }
             ],
