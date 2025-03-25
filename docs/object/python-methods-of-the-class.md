@@ -2,11 +2,11 @@
 title: Python 类的方法
 ---
 
-## 类的方法
+# 类的方法
 
 类的方法是定义在类中的函数，它们与类的实例（对象）相关联。类的方法可以访问和修改类的状态，也可以调用其他的类方法或实例方法。
 
-### 1. 实例方法 (Instance Methods)
+## 1. 实例方法 (Instance Methods)
 
 实例方法是最常见的类方法。它们必须至少有一个参数，通常被命名为 `self`。`self` 代表类的实例本身，通过它可以访问实例的属性和其他方法。
 
@@ -56,7 +56,7 @@ my_dog.display_info()  # 输出: Name: Buddy, Breed: Golden Retriever
 *   `bark` 和 `display_info` 是普通的实例方法，可以通过实例对象来调用。
 *   `self` 参数让方法能够访问和操作实例的属性（如 `self.name` 和 `self.breed`）。
 
-### 2. 类方法 (Class Methods)
+## 2. 类方法 (Class Methods)
 
 类方法使用 `@classmethod` 装饰器来定义。它们接收一个名为 `cls` 的参数，代表类本身。类方法主要用于访问或修改类的属性，或者创建类的不同实例。
 
