@@ -12,27 +12,29 @@ export default defineConfig({
         logo: '/favicon.ico',
         nav: [
             {text: '主页', link: '/'},
+            {text: '面向过程', link: '/process/hello-world'},
+            {text: '面向对象', link: '/object/object'},
         ],
         sidebar: {
-            // 当用户位于 `guide` 目录时，会显示此侧边栏
-            '/guide/': [
+            // 当用户位于 `process` 目录时，会显示此侧边栏
+            '/process/': [
                 {
-                    text: 'Guide',
+                    text: 'process',
                     items: [
-                        { text: 'Index', link: '/guide/' },
-                        { text: 'One', link: '/guide/one' },
-                        { text: 'Two', link: '/guide/two' }
+                        { text: 'Python 简介', link: '/process/python-intro' },
+                        { text: 'Python 基础语法', link: '/process/python-basic-syntax' },
+                        { text: 'Python 基本数据类型', link: '/process/python-data-type' }
                     ]
                 }
             ],
             // 当用户位于 `config` 目录时，会显示此侧边栏
-            '/config/': [
+            '/object/': [
                 {
-                    text: 'Config',
+                    text: 'object',
                     items: [
-                        { text: 'Index', link: '/config/' },
-                        { text: 'Three', link: '/config/three' },
-                        { text: 'Four', link: '/config/four' }
+                        { text: 'Index', link: '/object/' },
+                        { text: 'Three', link: '/object/three' },
+                        { text: 'Four', link: '/object/four' }
                     ]
                 }
             ]
