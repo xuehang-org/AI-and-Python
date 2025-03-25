@@ -22,7 +22,7 @@ export default defineConfig({
             // 当用户位于 `process` 目录时，会显示此侧边栏
             '/process/': [
                 {
-                    text: 'process',
+                    text: '面向过程',
                     items: [
                         { text: 'Python 简介', link: '/process/python-intro' },
                         { text: 'Python 基础语法', link: '/process/python-basic-syntax' },
@@ -34,7 +34,7 @@ export default defineConfig({
             // 当用户位于 `config` 目录时，会显示此侧边栏
             '/object/': [
                 {
-                    text: 'object',
+                    text: '面向对象',
                     items: [
                         { text: 'Python 类定义', link: '/object/python-class-definition' },
                         { text: 'Python 类对象', link: '/object/python-class-object' },
