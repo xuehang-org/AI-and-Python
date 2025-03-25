@@ -32,6 +32,7 @@ export default defineConfig({
                         { text: 'Python 运算符', link: '/process/python-basic-operators' },
                         { text: 'Python 数字', link: '/process/python-number' },
                         { text: 'Python 字符串', link: '/process/python-string' },
+                        { text: 'Python 列表', link: '/process/python-list' },
                     ]
                 }
             ],
