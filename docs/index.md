@@ -7,7 +7,7 @@ hero:
   tagline: Gemini 2.0 Flash 驱动，更智能的 Python 学习体验
   actions:
     - theme: brand
-      text: 你好 Python
+      text: Hello, World!
       link: /process/hello-world
 
 features:
