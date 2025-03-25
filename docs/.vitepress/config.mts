@@ -27,7 +27,8 @@ export default defineConfig({
                         { text: 'Python 简介', link: '/process/python-intro' },
                         { text: 'Python 基础语法', link: '/process/python-basic-syntax' },
                         { text: 'Python 基本数据类型', link: '/process/python-data-type' },
-                        { text: 'Python 数据类型转换', link: '/process/python-type-conversion' }
+                        { text: 'Python 数据类型转换', link: '/process/python-type-conversion' },
+                        { text: 'Python 注释', link: '/process/python-comment' }
                     ]
                 }
             ],
