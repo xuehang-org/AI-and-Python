@@ -6,7 +6,7 @@ export default defineConfig({
     description: "AI & Python",
     lastUpdated: true,
     themeConfig: {
-        logo: '/static/favicon.ico',
+        logo: '/favicon.ico',
         nav: [
             {text: '主页', link: '/'},
         ],
