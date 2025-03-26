@@ -2,28 +2,28 @@
 title: Python 第三方库
 ---
 
-# Python 第三方库
+# 24. Python 第三方库
 
 Python 之所以强大，很大程度上归功于其丰富的第三方库。这些库由社区开发者创建并维护，涵盖了各种各样的功能，从数据分析到Web开发，再到机器学习，几乎你能想到的任何领域都有相应的库可以使用。
 
-## 什么是第三方库？
+## 24.1 什么是第三方库？
 
 简单来说，第三方库就是由**不是** Python 官方提供的库。它们通常是为了解决特定领域的问题而创建的，可以极大地扩展 Python 的功能。
 
 *   **官方库（标准库）:**  Python 自带的，安装 Python 后可以直接使用的库，比如 `os`、`sys`、`math` 等。
 *   **第三方库:**  需要额外安装才能使用的库，比如 `requests`、`numpy`、`pandas` 等。
 
-## 为什么要使用第三方库？
+## 24.2 为什么要使用第三方库？
 
 *   **提高效率:**  避免重复造轮子，直接使用现成的、经过测试和优化的代码。
 *   **扩展功能:**  Python 标准库可能无法满足你的需求，第三方库可以提供更多选择。
 *   **简化开发:**  第三方库通常提供了简单易用的API，让你更容易实现复杂的功能。
 
-## 如何安装第三方库？
+## 24.3 如何安装第三方库？
 
 最常用的方法是使用 `pip` (Python Package Installer)，它是 Python 的包管理工具。
 
-### 使用 pip 安装
+### 24.3.1 使用 pip 安装
 
 1.  **打开终端或命令提示符。**
 2.  **输入以下命令:**
@@ -38,7 +38,7 @@ Python 之所以强大，很大程度上归功于其丰富的第三方库。这�
     pip install requests
     ```
 
-### 常用 pip 命令
+### 24.3.2 常用 pip 命令
 
 *   `pip install <库名>`: 安装指定库。
 *   `pip uninstall <库名>`: 卸载指定库。
@@ -48,7 +48,7 @@ Python 之所以强大，很大程度上归功于其丰富的第三方库。这�
 *   `pip install -r requirements.txt`:  根据 `requirements.txt` 文件安装库。
 *   `pip install --upgrade <库名>`: 升级指定库到最新版本。
 
-### 示例：使用 `requests` 库发送 HTTP 请求
+### 24.3.3 示例：使用 `requests` 库发送 HTTP 请求
 
 ```python
 import requests
@@ -63,11 +63,11 @@ print(response.status_code)
 #print(response.text) # 打印整个html文档
 ```
 
-## 常用第三方库介绍
+## 24.4 常用第三方库介绍
 
 这里介绍一些常用的第三方库，涵盖了不同的领域：
 
-### 1. `requests`：HTTP 请求库
+### 24.4.1 `requests`
 
 用于发送 HTTP 请求，方便地与 Web 服务器进行交互。
 
@@ -82,7 +82,7 @@ data = response.json()
 #print(data) # 打印api返回的json数据
 ```
 
-### 2. `numpy`：数值计算库
+### 24.4.2 `numpy`
 
 用于进行高性能的数值计算，提供了多维数组对象和各种数学函数。
 
@@ -100,7 +100,7 @@ mean = np.mean(arr)
 print(mean)
 ```
 
-### 3. `pandas`：数据分析库
+### 24.4.3 `pandas`
 
 用于数据处理和分析，提供了 DataFrame 数据结构，方便进行数据清洗、转换和分析。
 
@@ -119,7 +119,7 @@ print(df)
 #print(df.head()) # 打印前几行数据
 ```
 
-### 4. `matplotlib`：绘图库
+### 24.4.4 `matplotlib`
 
 用于创建各种类型的图表，包括折线图、散点图、柱状图等。
 
@@ -144,7 +144,7 @@ plt.ylabel("Y-axis")
 plt.show()
 ```
 
-### 5. `scikit-learn`：机器学习库
+### 24.4.5 `scikit-learn`
 
 用于机器学习任务，提供了各种算法和工具，包括分类、回归、聚类、降维等。
 
@@ -170,7 +170,7 @@ y_pred = model.predict(X_new)
 print(y_pred)
 ```
 
-### 6. `beautifulsoup4`：HTML 解析库
+### 24.4.6 `beautifulsoup4`
 
 用于解析 HTML 和 XML 文档，方便提取网页中的数据。
 
@@ -193,7 +193,7 @@ title = soup.title.text
 print(title)
 ```
 
-### 7. `selenium`：Web 自动化测试库
+### 24.4.7 `selenium`
 
 用于模拟用户在浏览器中的操作，可以进行 Web 自动化测试、爬虫等任务。
 
@@ -217,27 +217,31 @@ driver.get("https://www.example.com")
 driver.quit()
 ```
 
-### 8. `flask` / `django`：Web 框架
+### 24.4.8 `fastapi` / `django`
 
-*   `flask`：轻量级的 Web 框架，适合小型项目和 API 开发。
-*   `django`：功能强大的 Web 框架，适合大型项目和企业级应用。
+在 Python 的世界里，Web 框架就像是盖房子的工具箱，帮你快速搭建网站和应用程序。这里我们介绍两个流行的选择：`fastapi` 和 `django`。
 
-**Flask 示例：**
+*   `fastapi`：一个现代、快速（高性能）的 Web 框架，主要用于构建 API。它特别适合小型项目和微服务，而且上手非常容易。
+*   `django`：一个功能非常强大的 Web 框架，提供了很多内置的功能，例如 ORM（对象关系映射）、模板引擎、表单处理等。适合大型项目和企业级应用，但学习曲线相对陡峭。
+
+**`fastapi` 示例：**
 
 ```python
-from flask import Flask
+from fastapi import FastAPI
 
-app = Flask(__name__)
+app = FastAPI()
 
-@app.route("/")
-def hello():
-    return "Hello, World!"
+@app.get("/")
+async def read_root():
+    return {"Hello": "World"}
 
-if __name__ == "__main__":
-    app.run(debug=True)
+@app.get("/items/{item_id}")
+async def read_item(item_id: int, q: str = None):
+    return {"item_id": item_id, "q": q}
 ```
 
-### 9. `Pillow`：图像处理库
+
+### 24.4.9 `Pillow`
 
 PIL (Python Imaging Library) 的一个分支，提供了广泛的图像处理功能。
 
@@ -256,7 +260,7 @@ resized_image = image.resize((200, 200))
 resized_image.save("resized_image.jpg")
 ```
 
-### 10. `opencv-python`：计算机视觉库
+### 24.4.10 `opencv-python`
 
 OpenCV 的 Python 接口，提供了丰富的计算机视觉算法和工具。
 
@@ -277,7 +281,7 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
-## 如何选择合适的第三方库？
+## 24.5 如何选择合适的第三方库？
 
 1.  **明确需求:**  首先要清楚自己需要解决什么问题，想要实现什么功能。
 2.  **搜索和调研:**  在网上搜索相关的库，查看它们的文档、示例代码和用户评价。
@@ -285,7 +289,7 @@ cv2.destroyAllWindows()
 4.  **评估性能:**  如果性能是关键因素，需要对不同的库进行性能测试。
 5.  **学习成本:**  考虑学习和使用库的难易程度，选择适合自己的库。
 
-## `requirements.txt` 文件的作用
+## 24.6 `requirements.txt` 文件的作用
 
 `requirements.txt` 文件用于记录项目所依赖的所有第三方库及其版本号。 它的主要作用是方便在不同的环境中（例如，开发环境、测试环境、生产环境）安装相同的依赖，确保项目在不同环境中的运行一致性。
 
@@ -336,7 +340,7 @@ pip install -r requirements.txt
     pip install -r requirements.txt
     ```
 
-## 总结
+## 24.7 总结
 
 Python 的第三方库是其强大功能的基石。学会使用 `pip` 安装和管理第三方库，并根据自己的需求选择合适的库，可以极大地提高开发效率和代码质量。希望本文能够帮助你更好地理解和使用 Python 第三方库。
 

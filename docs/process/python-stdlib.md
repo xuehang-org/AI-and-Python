@@ -2,22 +2,22 @@
 title: Python 标准库
 ---
 
-# Python 标准库
+# 23. Python 标准库
 
 Python 的标准库就像一个巨大的工具箱，里面包含了各种各样的模块，每个模块都提供了一系列预先编写好的函数和类，可以帮助你解决各种常见的编程问题，而无需从头开始编写代码。
 
-## 为什么使用标准库？
+## 23.1 为什么使用标准库？
 
 *   **开箱即用：** 标准库随 Python 解释器一起安装，无需额外下载和安装。
 *   **功能丰富：** 涵盖了文件操作、网络编程、文本处理、数据处理、加密等等方面。
 *   **质量保证：** 经过充分测试和优化，稳定可靠。
 *   **学习资源丰富：** 官方文档详细，社区活跃，容易找到解决方案。
 
-## 常用标准库模块概览
+## 23.2 常用标准库模块概览
 
 下面介绍一些常用的标准库模块，并给出简单的示例：
 
-### 1. `os` 模块：操作系统接口
+### 23.2.1 `os`
 
 `os` 模块提供了与操作系统交互的功能，例如文件和目录操作、环境变量等。
 
@@ -48,7 +48,7 @@ print(f"当前目录下的文件和目录: {files}")
 # os.rename("old_name.txt", "new_name.txt")
 ```
 
-### 2. `sys` 模块：系统相关
+### 23.2.2 `sys`
 
 `sys` 模块提供了访问和控制 Python 运行时环境的功能，例如命令行参数、标准输入输出等。
 
@@ -65,7 +65,7 @@ print(f"命令行参数: {sys.argv}")
 print(f"Python 版本: {sys.version}")
 ```
 
-### 3. `math` 模块：数学函数
+### 23.2.3 `math`
 
 `math` 模块提供了各种数学函数，例如三角函数、指数函数、对数函数等。
 
@@ -88,7 +88,7 @@ ceil_num = math.ceil(num)
 print(f"{num} 向上取整: {ceil_num}")
 ```
 
-### 4. `random` 模块：随机数生成
+### 23.2.4 `random`
 
 `random` 模块提供了生成随机数的功能。
 
@@ -113,7 +113,7 @@ random.shuffle(my_list)
 print(f"随机排序后的列表: {my_list}")
 ```
 
-### 5. `datetime` 模块：日期和时间
+### 23.2.5 `datetime`
 
 `datetime` 模块提供了处理日期和时间的功能。
 
@@ -137,7 +137,7 @@ new_date = now + datetime.timedelta(days=1)
 print(f"明天的日期: {new_date}")
 ```
 
-### 6. `json` 模块：JSON 编码和解码
+### 23.2.6 `json`
 
 `json` 模块提供了 JSON 数据的编码和解码功能，用于在 Python 对象和 JSON 字符串之间进行转换。
 
@@ -169,7 +169,7 @@ print(f"Python 对象: {loaded_data}")
 #     json.dump(data, f, ensure_ascii=False, indent=4)
 ```
 
-### 7. `urllib` 模块：网络请求
+### 23.2.7 `urllib`
 
 `urllib` 模块用于进行网络请求，可以获取网页内容、下载文件等。
 
@@ -185,7 +185,7 @@ except urllib.error.URLError as e:
     print(f"发生错误: {e}")
 ```
 
-### 8. `re` 模块：正则表达式
+### 23.2.8 `re`
 
 `re` 模块提供了正则表达式操作，用于字符串的匹配、查找、替换等。
 
@@ -211,7 +211,7 @@ new_text = re.sub(email_pattern, "[email protected]", text)
 print(f"替换后的文本: {new_text}")
 ```
 
-### 9. `collections` 模块： 额外的数据结构
+### 23.2.9 `collections`
 
 `collections` 模块提供了一些额外的数据结构，例如 `Counter` (计数器), `deque` (双端队列), `defaultdict` (默认字典)等。
 
@@ -239,7 +239,7 @@ my_dict["a"] += 1
 print(f"默认字典: {my_dict['a']}, {my_dict['b']}")  # 1, 0
 ```
 
-### 10. `typing` 模块：类型提示
+### 23.2.10 `typing`
 
 `typing` 模块用于类型提示，可以提高代码的可读性和可维护性。(python 3.5+)
 
@@ -257,12 +257,12 @@ print(greet("Alice"))
 print(process_data([1, 2, 3, 4, 5]))
 ```
 
-## 如何学习更多标准库模块？
+## 23.3 如何学习更多标准库模块？
 
 *   **官方文档：** Python 官方文档是学习标准库的最佳资源，包含了详细的模块介绍、函数说明和示例代码。[https://docs.python.org/3/library/](https://docs.python.org/3/library/)
 *   **在线教程：** 网上有很多 Python 标准库的教程和博客文章，可以参考学习。
 *   **实践：** 尝试使用标准库解决实际问题，在实践中学习和掌握。
 
-## 总结
+## 23.4 总结
 
 Python 标准库是 Python 编程的重要组成部分，掌握标准库可以大大提高开发效率。希望本文能帮助你入门 Python 标准库，祝你学习愉快！
