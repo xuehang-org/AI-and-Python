@@ -17,6 +17,7 @@ export default defineConfig({
             {text: '主页', link: '/'},
             {text: '面向过程', link: '/process/hello-world'},
             {text: '面向对象', link: '/object/python-object'},
+            {text: '高级特性', link: '/characteristics/advanced-features'},
         ],
         sidebar: {
             '/process/': [
@@ -61,6 +62,14 @@ export default defineConfig({
                         { text: 'Python 类的方法重写', link: '/object/python-method-overrides-of-the-class' },
                         { text: 'Python 类属性与方法', link: '/object/python-class-properties-and-methods' },
                         { text: 'Python 类运算符重载', link: '/object/python-class-operator-overloading' },
+                    ]
+                }
+            ],
+            '/characteristics/': [
+                {
+                    text: '高级特性',
+                    items: [
+                        { text: 'Python 高级特性', link: '/characteristics/advanced-features' },
                     ]
                 }
             ]
