@@ -52,9 +52,11 @@ export default defineConfig({
                 {
                     text: '面向对象',
                     items: [
-                        { text: 'Python 类定义', link: '/object/python-class-definition' },
-                        { text: 'Python 类对象', link: '/object/python-class-object' },
-                        { text: 'Python 类的方法', link: '/object/python-methods-of-the-class' }
+                        { text: 'Python 面向对象', link: '/object/python-object' },
+                        { text: 'Python 类的定义', link: '/object/python-class-definition' },
+                        { text: 'Python 类的对象', link: '/object/python-class-object' },
+                        { text: 'Python 类的方法', link: '/object/python-methods-of-the-class' },
+                        { text: 'Python 类的继承', link: '/object/python-class-inheritance' }
                     ]
                 }
             ]
