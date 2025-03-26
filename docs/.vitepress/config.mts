@@ -73,6 +73,7 @@ export default defineConfig({
                         { text: 'Python 列表推导式', link: '/characteristics/list-derivation' },
                         { text: 'Python 生成器', link: '/characteristics/generator' },
                         { text: 'Python 迭代器', link: '/characteristics/iterator' },
+                        { text: 'Python 装饰器', link: '/characteristics/decorator' },
                     ]
                 }
             ]
