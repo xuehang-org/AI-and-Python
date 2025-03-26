@@ -74,6 +74,7 @@ export default defineConfig({
                         { text: 'Python 生成器', link: '/characteristics/generator' },
                         { text: 'Python 迭代器', link: '/characteristics/iterator' },
                         { text: 'Python 装饰器', link: '/characteristics/decorator' },
+                        { text: 'Python 上下文管理器', link: '/characteristics/context-manager' },
                     ]
                 }
             ]
