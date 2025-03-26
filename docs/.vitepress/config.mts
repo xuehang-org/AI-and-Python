@@ -70,6 +70,7 @@ export default defineConfig({
                     text: '高级特性',
                     items: [
                         { text: 'Python 高级特性', link: '/characteristics/advanced-features' },
+                        { text: 'Python 列表推导式', link: '/characteristics/list-derivation' },
                     ]
                 }
             ]
