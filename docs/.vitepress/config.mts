@@ -58,6 +58,7 @@ export default defineConfig({
                         { text: 'Python 类的方法', link: '/object/python-methods-of-the-class' },
                         { text: 'Python 类的继承', link: '/object/python-class-inheritance' },
                         { text: 'Python 类的多继承', link: '/object/python-multiple-inheritance-of-classes' },
+                        { text: 'Python 类的方法重写', link: '/object/python-method-overrides-of-the-class' },
                     ]
                 }
             ]
