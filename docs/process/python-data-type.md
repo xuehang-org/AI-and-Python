@@ -1,15 +1,15 @@
 ---
 title: Python 基本数据类型
 ---
-# Python 基本数据类型
+# 4. Python 基本数据类型
 
 在 Python 中，所有的数据都有类型。了解不同的数据类型对于编写有效的 Python 代码至关重要。Python 提供了几种内置的基本数据类型，我们将逐一介绍。
 
-## 1. 数字类型 (Numeric Types)
+## 4.1 数字类型 (Numeric Types)
 
 Python 中的数字类型用于存储数值。主要有以下几种：
 
-### 整数 (int)
+### 4.1.1 整数 (int)
 
 整数是没有小数部分的数字，可以是正数、负数或零。
 
@@ -25,7 +25,7 @@ print(type(temperature))  # 输出: <class 'int'>
 print(type(count))      # 输出: <class 'int'>
 ```
 
-### 浮点数 (float)
+### 4.1.2 浮点数 (float)
 
 浮点数是带有小数部分的数字。
 
@@ -41,7 +41,7 @@ print(type(pi))      # 输出: <class 'float'>
 print(type(height))  # 输出: <class 'float'>
 ```
 
-### 复数 (complex)
+### 4.1.3 复数 (complex)
 
 复数由实部和虚部组成，虚部以 `j` 或 `J` 结尾。
 
@@ -54,7 +54,7 @@ print(z.imag)  # 输出: 4.0 (虚部)
 print(type(z))  # 输出: <class 'complex'>
 ```
 
-## 2. 字符串类型 (String Type)
+## 4.2 字符串类型 (String Type)
 
 字符串是由字符组成的序列，用于表示文本信息。在 Python 中，字符串是不可变的。
 
@@ -73,7 +73,7 @@ print(type(message))          # 输出: <class 'str'>
 print(type(multiline_string)) # 输出: <class 'str'>
 ```
 
-### 字符串操作
+### 4.2.1 字符串操作
 
 - **连接字符串：**
 
@@ -99,7 +99,7 @@ text = "Python"
 print(text[2:5])  # 输出: tho
 ```
 
-## 3. 布尔类型 (Boolean Type)
+## 4.3 布尔类型 (Boolean Type)
 
 布尔类型只有两个值：`True`（真）和 `False`（假）。通常用于逻辑判断。
 
@@ -113,7 +113,7 @@ print(type(is_active))  # 输出: <class 'bool'>
 print(type(is_admin))   # 输出: <class 'bool'>
 ```
 
-### 布尔运算
+### 4.3.1 布尔运算
 
 - **与 (and)：**
 
@@ -136,7 +136,7 @@ result = not True       # False
 print(result)
 ```
 
-## 4. 列表类型 (List Type)
+## 4.4 列表类型 (List Type)
 
 列表是一个有序的集合，可以包含不同类型的元素。列表是可变的。
 
@@ -152,7 +152,7 @@ print(type(names))     # 输出: <class 'list'>
 print(type(mixed_list) # 输出: <class 'list'>
 ```
 
-### 列表操作
+### 4.4.1 列表操作
 
 - **访问列表中的元素：**
 
@@ -178,7 +178,7 @@ numbers.append(40)
 print(numbers)  # 输出: [10, 20, 30, 40]
 ```
 
-## 5. 元组类型 (Tuple Type)
+## 4.5 元组类型 (Tuple Type)
 
 元组与列表类似，也是一个有序的集合。不同之处在于，元组是不可变的。
 
@@ -192,7 +192,7 @@ print(type(point))  # 输出: <class 'tuple'>
 print(type(colors)) # 输出: <class 'tuple'>
 ```
 
-### 元组操作
+### 4.5.1 元组操作
 
 - **访问元组中的元素：**
 
@@ -204,7 +204,7 @@ print(point[1])  # 输出: 20
 
 **注意：** 元组是不可变的，因此不能修改元组中的元素。
 
-## 6. 集合类型 (Set Type)
+## 4.6 集合类型 (Set Type)
 
 集合是一个无序且不包含重复元素的集合。
 
@@ -218,7 +218,7 @@ print(type(numbers))  # 输出: <class 'set'>
 print(type(names))    # 输出: <class 'set'>
 ```
 
-### 集合操作
+### 4.6.1 集合操作
 
 - **添加元素到集合：**
 
@@ -236,7 +236,7 @@ numbers.remove(1)
 print(numbers)  # 输出: {2, 3}
 ```
 
-## 7. 字典类型 (Dictionary Type)
+## 4.7 字典类型 (Dictionary Type)
 
 字典是一种键值对的集合，其中每个键都唯一。
 
@@ -252,7 +252,7 @@ person = {
 print(type(person))  # 输出: <class 'dict'>
 ```
 
-### 字典操作
+### 4.7.1 字典操作
 
 - **访问字典中的值：**
 
@@ -278,6 +278,6 @@ person["age"] = 30
 print(person)  # 输出: {'name': 'Alice', 'age': 30}
 ```
 
-## 总结
+## 4.8 总结
 
 以上就是 Python 中常用的基本数据类型。理解这些数据类型及其特点，能帮助你更好地编写 Python 程序。希望这篇文档对你有所帮助！
