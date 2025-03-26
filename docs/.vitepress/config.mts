@@ -71,6 +71,7 @@ export default defineConfig({
                     items: [
                         { text: 'Python 高级特性', link: '/characteristics/advanced-features' },
                         { text: 'Python 列表推导式', link: '/characteristics/list-derivation' },
+                        { text: 'Python 生成器', link: '/characteristics/generator' },
                     ]
                 }
             ]
