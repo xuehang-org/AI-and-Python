@@ -31,8 +31,8 @@
 
 您可以通过以下方式访问和使用本教程：
 
-1.  **在线阅读:**  [https://ai-and-python.xuehang.org/]  -  这是推荐的方式，可以获得最佳的阅读体验。
-2.  **GitHub 仓库:** [https://github.com/xuehang-org/AI-and-Python](https://github.com/xuehang-org/AI-Python)  -  您可以克隆或 Fork 该仓库，并在本地进行阅读。
+1.  **在线阅读:**  [https://ai-python.xuehang.org/]  -  这是推荐的方式，可以获得最佳的阅读体验。
+2.  **GitHub 仓库:** [https://github.com/xuehang-org/AI-Python](https://github.com/xuehang-org/AI-Python)  -  您可以克隆或 Fork 该仓库，并在本地进行阅读。
 
 ## 贡献
 
@@ -48,7 +48,7 @@
 
 ## 联系方式
 
-*   GitHub: [https://github.com/xuehang-org/AI-and-Python](https://github.com/xuehang-org/AI-Python)
+*   GitHub: [https://github.com/xuehang-org/AI-Python](https://github.com/xuehang-org/AI-Python)
 *   Twitter: [https://x.com/xuehang_org](https://x.com/xuehang_org)
 
 ## 鸣谢
